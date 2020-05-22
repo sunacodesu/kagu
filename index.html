@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>〇〇〇〇</title>
+  
+
+  
+
+  <!-- reset css -->
+  <!-- <link rel="stylesheet" href="../css_jquery/reset.css"> -->
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="./sass/styles.css">
+  
+  <!-- font awesome  -->
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+
+  <!-- jquery--> 
+  <script src="../css_jquery/jquery-3.3.1.min.js"></script>
+
+  <!-- javascript -->
+  <script src="./js/styles.js"></script>
+
+  <!-- google font  -->
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700|Noto+Serif+JP|Quicksand:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrap">
+  
+  
+<header class="l-header">
+  <div class="p-header">
+
+    <div class="p-header__wrapper">
+      <h1 class="c-logoWrapper"><a href="index.html"><img class="c-logo--siteLogo" src="https://github.com/sunacodesu/kagu/blob/master/logo.png?raw=true" alt="KAGU"></a></h1>
+      
+      <!-- ハンバーガーアイコン -->
+      <i href="#" class="c-icon--hamburger" id="hamburgerIcon">
+      <img src="https://raw.githubusercontent.com/sunacodesu/kagu/6b85d16e7d2b1ea08b03d98909817621230e841e/hamburger_icon.svg" alt="hamburgerIcon">
+    </i>
+          <!-- ナビゲーション中身 -->
+    <div class="p-nav__wrapper ">
+
+   
+
+        <nav class="p-nav">
+          <ul class="p-nav__list">
+            <li class="p-nav__listItem"><a href="#handling">取扱い家具</a></li>
+            <li class="p-nav__listItem"><a href="#shop">販売店・展示場一覧</a></li>
+            <li class="p-nav__listItem"><a href="#recruit">採用情報</a></li>
+            <li class="p-nav__listItem"><a href="#notice">お知らせ</a></li>
+          </ul>
+        </nav>
+
+
+        <div class="p-nav__buttonWrapper">
+          
+      <a href="#" class="c-button--BigButton -store font-quick">
+      <i class="c-icon--cart  pr_1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="21" viewBox="0 0 20 21">
+          <image id="cart_icon.svg" width="20" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAABpUlEQVQ4ja2UTUhVQRiGn6slQkSFuhBbBUJBYJHLsFy5aOW2TUHrNoH7tu1C2rQUF+HGyhaJq34uGBQIoqibiFr0o4RB/kDmE6PfocPlePMcemGYmTPzPfPOzHempn4FtoA68Ap4DKxSVeqI+lrddl+TKlVLcphZaQeeAeeA01UNtuTa28As0AN0/Q9g0lzUF6oCjxwAvA4cq8D7nD/DTD8rwpJ2Gh0mvQXOADdKwu4B3UXAtO0rAd4oATwFrDReSgasAX0lYEdjV0sHAZMulgD2Aq3AchFwOXKyTOqczWKLznAHWPiHwxTXD1yNcjm+LxUBiTPJj7XGAil4MC4tS601YBp4mvKw6BE4H4/E3egPqz/8q+/qE/V2zK3l4xsddgA3oz0e9TrwHHgDvADmgd3c1jvC5b6C3KnWw0N6xt4d4vm6pq5GTJrfs/fXxeBDdVd9oK6om+rJJrB2dV39oN5Xf6kTeeCsOhftW7HqpSbA3phzJ/ov1cU8cDQmPFI/xiUcbwJsU7+pX9Rx9bc6lgeeUKdi25/UoUOc4YD6PozM7N2D8gew5AKND8IlDwAAAABJRU5ErkJggg=="/>
+        </svg>
+        
+        
+      </i>
+        ONLINE STORE
+      </a>
+
+      <a href="#" class="c-button--BigButton -mail">
+        <i class="c-icon--mail  pr_1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="12" viewBox="0 0 17 12">
+      <image id="mail_icon.svg" width="17" height="12" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAMCAYAAACEJVa/AAAAzUlEQVQokaWSMQrCQBBFfySVgmBjZWUjCJFcwxsEq7QewjNYWuoVcgOvkFY9Q2yMXXyycSJBNBEdGHb2z5/HLrsecJHU0+9xdhAk3SQdJS2d+AVuIGkjaSQpFo9YAAfgBASO25CB+Zx/Wp7BICHQBxIgB6IPkMj6ifmHwLYOcbW73googDXgm+7bvrC+Z3qIFXVIlXMgA/bAzNbM9LqvEeJyDKTWT23/6mmFuOwCsa3v+iXEb3nKq6Rd23t3/vhkz6hOMvlxvpz7/9tL+R1EUGVKZmsgOAAAAABJRU5ErkJggg=="/>
+          
+    </svg>
+        </i>お問い合わせ
+      </a>
+    </div>
+
+
+      
+    </div>
+    </div>
+    
+          <!-- クローンナビゲーション -->
+                <div class="p-navClone__wrapper">
+                <div class="p-navClone__header ci_p2">
+                  <h1 class="c-logoWrapper"><a href="index.html"><img class="c-logo--siteLogo" src="https://github.com/sunacodesu/kagu/blob/master/header_palmtop_03.png?raw=true" alt="KAGU"></a></h1>
+          
+                  <i class="c-icon--cross" id="cross">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18.376" height="18.375" viewBox="0 0 18.376 18.375">
+                      <defs>
+                        <style>
+                          .cls-1 {
+                              fill: #fff;
+                              fill-rule: evenodd;
+                          }
+
+                        </style>
+                      </defs>
+                      <path id="bastu_icon.svg" class="cls-1" d="M335.808,23.222l1.414-1.414,16.97,16.971-1.414,1.414ZM337.38,40L336,38.619,352.619,22l1.386,1.385Z" transform="translate(-335.812 -21.813)"/>
+                    </svg>
+                    
+                  </i>
+                </div>
+          
+                  <nav class="p-navClone ci_p2">
+                    <ul class="p-navClone__list">
+                      <li class="p-navClone__listItem"><a href="#handling">取扱い家具</a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+  <image id="arrow_icon.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAXklEQVQYlaXOoQ2EQABE0beEILDkQhN0QQG4UwiKoYNrhDaoAksCCQ67FwTBs1+OeJkQY/SyH2oMOG8iBfxgQo4O6zVmbzVsaLFgRnM/LFEkwAEjenwvcEeVAD5x/AG5pxYyJ9SmVAAAAABJRU5ErkJggg=="/>
+</svg>
+</li>
+                      <li class="p-navClone__listItem"><a href="#shop">販売店・展示場一覧</a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+  <image id="arrow_icon.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAXklEQVQYlaXOoQ2EQABE0beEILDkQhN0QQG4UwiKoYNrhDaoAksCCQ67FwTBs1+OeJkQY/SyH2oMOG8iBfxgQo4O6zVmbzVsaLFgRnM/LFEkwAEjenwvcEeVAD5x/AG5pxYyJ9SmVAAAAABJRU5ErkJggg=="/>
+</svg>
+</li>
+                      <li class="p-navClone__listItem"><a href="#recruit">採用情報</a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+  <image id="arrow_icon.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAXklEQVQYlaXOoQ2EQABE0beEILDkQhN0QQG4UwiKoYNrhDaoAksCCQ67FwTBs1+OeJkQY/SyH2oMOG8iBfxgQo4O6zVmbzVsaLFgRnM/LFEkwAEjenwvcEeVAD5x/AG5pxYyJ9SmVAAAAABJRU5ErkJggg=="/>
+</svg>
+</li>
+                      <li class="p-navClone__listItem"><a href="#notice">お知らせ</a><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+  <image id="arrow_icon.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAXklEQVQYlaXOoQ2EQABE0beEILDkQhN0QQG4UwiKoYNrhDaoAksCCQ67FwTBs1+OeJkQY/SyH2oMOG8iBfxgQo4O6zVmbzVsaLFgRnM/LFEkwAEjenwvcEeVAD5x/AG5pxYyJ9SmVAAAAABJRU5ErkJggg=="/>
+</svg>
+</li>
+                    </ul>
+                  </nav>
+          
+          
+                  <div class="p-navClone__buttonWrapper ci_p2">
+                    
+                <a href="#" class="c-button--BigButton -store font-quick">
+                <i class="c-icon--cart  pr_1">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="17" viewBox="0 0 17 17">
+                    <image id="cart_icon.svg" width="17" height="17" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAYAAABG1c6oAAABpUlEQVQ4ja2UTUhVQRiGn6slQkSFuhBbBUJBYJHLsFy5aOW2TUHrNoH7tu1C2rQUF+HGyhaJq34uGBQIoqibiFr0o4RB/kDmE6PfocPlePMcemGYmTPzPfPOzHempn4FtoA68Ap4DKxSVeqI+lrddl+TKlVLcphZaQeeAeeA01UNtuTa28As0AN0/Q9g0lzUF6oCjxwAvA4cq8D7nD/DTD8rwpJ2Gh0mvQXOADdKwu4B3UXAtO0rAd4oATwFrDReSgasAX0lYEdjV0sHAZMulgD2Aq3AchFwOXKyTOqczWKLznAHWPiHwxTXD1yNcjm+LxUBiTPJj7XGAil4MC4tS601YBp4mvKw6BE4H4/E3egPqz/8q+/qE/V2zK3l4xsddgA3oz0e9TrwHHgDvADmgd3c1jvC5b6C3KnWw0N6xt4d4vm6pq5GTJrfs/fXxeBDdVd9oK6om+rJJrB2dV39oN5Xf6kTeeCsOhftW7HqpSbA3phzJ/ov1cU8cDQmPFI/xiUcbwJsU7+pX9Rx9bc6lgeeUKdi25/UoUOc4YD6PozM7N2D8gew5AKND8IlDwAAAABJRU5ErkJggg=="/>
+                  </svg>
+                  
+                  
+                </i>
+                  ONLINE STORE
+                </a>
+          
+                <a href="#" class="c-button--BigButton -mail">
+                  <i class="c-icon--mail  pr_1">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="12" viewBox="0 0 17 12">
+                <image id="mail_icon.svg" width="17" height="12" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAMCAYAAACEJVa/AAAAzUlEQVQokaWSMQrCQBBFfySVgmBjZWUjCJFcwxsEq7QewjNYWuoVcgOvkFY9Q2yMXXyycSJBNBEdGHb2z5/HLrsecJHU0+9xdhAk3SQdJS2d+AVuIGkjaSQpFo9YAAfgBASO25CB+Zx/Wp7BICHQBxIgB6IPkMj6ifmHwLYOcbW73googDXgm+7bvrC+Z3qIFXVIlXMgA/bAzNbM9LqvEeJyDKTWT23/6mmFuOwCsa3v+iXEb3nKq6Rd23t3/vhkz6hOMvlxvpz7/9tL+R1EUGVKZmsgOAAAAABJRU5ErkJggg=="/>
+                    
+              </svg>
+                  </i>お問い合わせ
+                </a>
+                  </div>
+          
+                  
+                </div>
+        
+  </div>  <!-- p-header  -->
+
+
+
+
+    <!-- スライドショー -->
+  <div id="p-slide" class="p-slide">
+    <h2 class="c-title__headerTitle">
+      自分らしさを<br class="u-br">レイアウトする
+    </h2>
+    <ul class="p-slide__list">
+      <li class="p-slide__listItem"><img class="p-slide__slideImg" src="https://github.com/sunacodesu/kagu/blob/master/fv_01.jpg?raw=true"></li>
+      <li class="p-slide__listItem"><img class="p-slide__slideImg" src="https://github.com/sunacodesu/kagu/blob/master/fv_02.jpg?raw=true"></li>
+      <li class="p-slide__listItem"><img class="p-slide__slideImg" src="https://github.com/sunacodesu/kagu/blob/master/fv_03.jpg?raw=true"></li>
+    </ul>
+  </div>
+
+ 
+
+  <div class="p-slide__button">
+    <ul id="p-button" class="p-slide__buttonList">
+      <li><a class="p-slide__buttonItem p-slide__target" href="#">1</a></li>
+      <li><a class="p-slide__buttonItem" href="#">2</a></li>
+      <li><a class="p-slide__buttonItem" href="#">3</a></li>
+    </ul>
+  </div>
+</header>
+
+
+<!-- お知らせ -->
+<div id="notice" class="ci_SP">
+<section class="p-notice u-mp_notice">
+  <h2 class="c-title u-mp_title">お知らせ</h2>
+  <div class="c-subTitle u-mp_subTitle">NEWS</div>
+
+  <div class="p-notice__itemWrapper">
+    
+    <div class="p-notice__item-A u-mp_time">
+    <time class="u-mr_1">2020.01.28</time>
+    <span class="c-label">ニュースリリース</span>
+    <p class="p-notice__text u-mp__text--A">
+      「KAGU FANTASIA」が2020年X月XX日（月）東京・原宿にオープン
+    </p>
+    </div>
+    
+    <div class="p-notice__item-B u-mp_time">
+    <time class="u-mr_1">2020.01.12</time>
+    <span class="c-label">ニュースリリース</span>
+    <p class="p-notice__text u-mp__text--A">
+      新春キャンペーンを実施
+    </p>
+    </div>
+    
+  </div>
+  
+  <div class="p-notice__itemWrapper">
+    
+    <div class="p-notice__item-A u-mp_time">
+    <time class="u-mr_1">2019.12.26</time>
+    <span class="c-label">お知らせ</span>
+    <p class="p-notice__text u-mp__text--A">
+      年末年始の営業日についてのお知らせ
+    </p>
+    </div>
+    
+    <div class="p-notice__item-B u-mp_time">
+    <time class="u-mr_1">2019.11.09</time>
+    <span class="c-label">ニュースリリース</span>
+    <p class="p-notice__text u-mp__text--A">
+      人気ライフスタイル雑誌『KAGUGU』とのコラボ商品が登場
+    </p>
+    </div>
+
+    
+  </div>
+  <div><a class="c-button--solid--black u-mp_button u-m0_auto" href="#">お知らせ一覧へ</a></div>
+
+</section><!-- お知らせ  -->
+</div>
+
+
+
+<!-- 取り扱い家具 -->
+
+<article id="handling" class="p-introduction ci_SP u-mp_id">
+  
+  <h2 class="c-title u-mp_title">取扱い家具</h2>
+  <div class="c-subTitle u-mp_subTitle">FURNITURE</div>
+
+  <!-- テーマで探す -->
+  <section class="p-introduction__itemWrapper--A u-mp_id--wrapper">
+    
+    <div class="p-introduction__imgWrapper u-col_tab5 u-mr_tab6">
+    <img class="p-introduction__img c-img" src="https://github.com/sunacodesu/kagu/blob/master/img_furniture_01.jpg?raw=true">
+    </div>
+
+    <div class="p-introduction__textWrapper u-col_tab5">
+      <h3 class="c-title__tal u-mp_title--A">テーマで探す</h3>
+      <p class="c-text u-mp__text--B">モダン、ナチュラル、北欧、ヴィンテージ、和風、ハワイアン、アメリカン、ミニマルなど、テーマごとに家具をお探しいただけます。</p>
+      <div><a class="c-button--solid--black u-mp_button" href="#">取り扱い家具一覧へ</a></div>
+    </div>
+  </section>
+  
+  <!-- カラーで探す -->
+  <section class="p-introduction__itemWrapper--B u-mp_id--wrapper">
+    
+    <div class="p-introduction__imgWrapper u-col_tab5 u-ml_tab6">
+    <img class="p-introduction__img c-img" src="https://github.com/sunacodesu/kagu/blob/master/img_furniture_02.jpg?raw=true">
+    </div>
+
+    <div class="p-introduction__textWrapper u-col_tab5">
+      <h3 class="c-title__tal u-mp_title--A">カラーで探す</h3>
+      <p class="c-text u-mp__text--B">レッド、ブルー、グリーン、イエロー、オレンジ、ピンク、パープル、ベージュ・アイボリー、ブラウン、ブラック、グレー、ホワイトなど</p>
+      <div><a class="c-button--solid--black u-mp_button" href="#">取り扱い家具一覧へ</a></div>
+    </div>
+  </section>
+
+  <!-- 3col  -->
+  <div class="p-introduction__3colWrapper  u-mp_id--wrapper">
+    <section class="p-introduction__itemWrapper--C u-mt_sp6 u-mr_pc7">
+    <div class="p-introduction__imgWrapper">
+      <img class="p-introduction__img c-img" src="https://github.com/sunacodesu/kagu/blob/master/img_furniture_03.jpg?raw=true">
+      </div>
+  
+      <div class="p-introduction__textWrapper">
+        <h3 class="c-title__tal u-mp_title--3col">シーンで探す</h3>
+        <p class="c-text u-mp__text--B">「リビング」や「ダイニング」、「寝室・ベッドルーム」、「キッチン」、「玄関・エントランス」、「書斎・ホームオフィス」などのシーンから、それぞれのシーンで使用する家具をお探しいただけます。</p>
+        <div class="p-introduction__buttonWrapper"><a class="c-button--solid--black u-mp_button" href="#">取り扱い家具一覧へ</a></div>
+      </div>
+  </section>
+    <section class="p-introduction__itemWrapper--C u-mt_sp6 u-mr_pc7">
+    <div class="p-introduction__imgWrapper">
+      <img class="p-introduction__img c-img" src="https://github.com/sunacodesu/kagu/blob/master/img_furniture_04.jpg?raw=true">
+      </div>
+  
+      <div class="p-introduction__textWrapper">
+        <h3 class="c-title__tal u-mp_title--3col">ブランドで探す</h3>
+        <p class="c-text u-mp__text--B">他では出会えないソファやチェアが見つかります。 当社ブランド以外でも、セレクトラインアップの中で多数のブランドをお取扱いしております。</p>
+        <div class="p-introduction__buttonWrapper"><a class="c-button--solid--black u-mp_button" href="#">取り扱い家具一覧へ</a></div>
+      </div>
+  </section>
+    <section class="p-introduction__itemWrapper--C u-mt_sp6">
+    <div class="p-introduction__imgWrapper">
+      <img class="p-introduction__img c-img" src="https://github.com/sunacodesu/kagu/blob/master/img_furniture_05.jpg?raw=true">
+      </div>
+  
+      <div class="p-introduction__textWrapper">
+        <h3 class="c-title__tal u-mp_title--3col">素材で探す</h3>
+        <p class="c-text u-mp__text--B">チークやパイン、マホガニーやウォールナットなどの木材から、ファブリックやラタンなどの布・繊維、ステンレスやロートアイアンのような金属まで、あらゆる素材を使用した家具を取り揃えております。</p>
+        <div class="p-introduction__buttonWrapper"><a class="c-button--solid--black u-mp_button" href="#">取り扱い家具一覧へ</a></div>
+      </div>
+  </section>
+  </div>
+
+</article>
+
+<!-- 販売店・展示 -->
+<article id="shop" class="p-sale u-pt_4-8 u-mb_5-10 ci_SP">
+  <section class="p-sale__item">
+    <div class="p-sale__imgWrapper u-mr_pc7">
+      <img class="p-sale__img c-img" src="https://github.com/sunacodesu/kagu/blob/master/img_store.jpg?raw=true">
+      </div>
+  
+      <div class="p-sale__textWrapper">
+        <h3 class="c-title__tal u-mp_title--A">販売店・展示場一覧</h3>
+        <p class="c-text u-mp__text--B">KAGUの販売店をご覧いただけます。 また、KAGUの家具は全国のショールームにてご覧いただけます。  </p>
+        <div class="p-sale__linkWrapper u-mt_4-6"><a class="p-sale__link" href="#">販売店・展示場一覧を見る</a> <svg class="p-sale__arrow u-ml_08" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+          <image id="arrow.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAZklEQVQYlaXQoQ0CURQEwPmEILAISK4F3JZADygEtRA6oAjKOI14NZBg8WhyguDvr1wx2WwzM0lu2OJcVZ+fspgL4oIBY5JdN1hVbxzwxCPJfupbkjVWHUun26444bjEC5sO8B/uXwHeEJaS+PfrAAAAAElFTkSuQmCC"/>
+        </svg>
+        </div>
+      </div>
+  </section>
+  
+  <section class="p-sale__item u-mt_6">
+    <div class="p-sale__imgWrapper u-mr_pc7">
+      <img class="p-sale__img c-img" src="https://github.com/sunacodesu/kagu/blob/master/img_online.jpg?raw=true">
+      </div>
+  
+      <div class="p-sale__textWrapper">
+        <h3 class="c-title__tal u-mp_title--A">ONLINE STORE</h3>
+        <p class="c-text u-mp__text--B">KAGUの家具はオンラインストアでもご購入いただけます。</p>
+        <div class="p-sale__linkWrapper u-mt_4-6"><a class="p-sale__link" href="#">オンラインストアを見る</a><svg class="p-sale__arrow u-ml_08" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+          <image id="arrow.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAZklEQVQYlaXQoQ0CURQEwPmEILAISK4F3JZADygEtRA6oAjKOI14NZBg8WhyguDvr1wx2WwzM0lu2OJcVZ+fspgL4oIBY5JdN1hVbxzwxCPJfupbkjVWHUun26444bjEC5sO8B/uXwHeEJaS+PfrAAAAAElFTkSuQmCC"/>
+        </svg>
+      
+          
+        </div>
+      </div>
+  </section>
+</article>
+
+<!-- 採用情報 -->
+
+<article id="recruit" class="p-recruit ci_SP">
+  <div class="p-recruit__textWrapper">
+    <h2 class="c-title u-mp_title">採用情報</h2>
+    <div class="c-subTitle--white u-mp_subTitle">RECRUIT</div>
+    <p class="c-text--recruit u-mt_4-5">KAGUの新卒・中途採用情報を掲載しております。<br>アルバイト情報についても掲載しております。</p>
+    <div class="p-sale__buttonWrapper"><a class="c-button--solid--white u-mp_button u-m0_auto" href="#">取り扱い家具一覧へ</a></div>
+  </div>
+  <div class="p-recruit__bg">
+ 
+</div>
+</article>
+
+
+<footer class="p-footer">
+
+  <div class="p-footer__flexWrapper  u-pt_3-6">
+  <div class="p-footer__itemWrapper">
+  <h1 class="p-footer__logoWrapper">
+    <img class="c-logo--footerLogo" src="https://github.com/sunacodesu/kagu/blob/master/header_palmtop_03.png?raw=true">
+  </h1>
+  <p class="p-footer__address c-text--footer u-mt_2-3">株式会社KAGU<br>愛知県名古屋市〇〇区〇〇町 XX-X</p>
+  <p class="p-footer__tel u-mt_3">TEL. 052-000-0000</p>
+</div>
+
+<ul class="p-footer__nav u-mt_3-0">
+  <div class="p-footer__flexWrapper">
+  <div class="p-footer__navWrapper u-mr_pc2">
+  <li class="p-footer__navLink"><a href="#">取り扱い家具</a><svg class="c-icon--arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+    <image id="arrow_icon.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAXklEQVQYlaXOoQ2EQABE0beEILDkQhN0QQG4UwiKoYNrhDaoAksCCQ67FwTBs1+OeJkQY/SyH2oMOG8iBfxgQo4O6zVmbzVsaLFgRnM/LFEkwAEjenwvcEeVAD5x/AG5pxYyJ9SmVAAAAABJRU5ErkJggg=="/>
+  </svg>
+  </li>
+
+  <ul class="p-footer__navAccordion">
+    <li id="accordion" class="p-footer__navLink u-pt_0-25">
+      <a href="#">販売店・展示場一覧</a>
+      <img id="arrow" class="c-icon--arrow" src="https://github.com/sunacodesu/kagu/blob/master/open_icon.png?raw=true">
+      <img id="hyphen" class="c-icon--hyphen" src="https://github.com/sunacodesu/kagu/blob/master/close_icon.png?raw=true">
+    </li>
+    <li id="accordion__item" class="p-footer__accordionLink u-pt_2"><a href="#">販売店舗一覧</a></li>
+    <li id="accordion__item" class="p-footer__accordionLink u-pt_2 u-pb_3"><a href="#">展示場一覧</a></li>
+  </ul>
+</div>
+  
+  <div class="p-footer__navWrapper">
+  <li class="p-footer__navLink"><a href="#">採用情報</a><svg class="c-icon--arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+    <image id="arrow_icon.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAXklEQVQYlaXOoQ2EQABE0beEILDkQhN0QQG4UwiKoYNrhDaoAksCCQ67FwTBs1+OeJkQY/SyH2oMOG8iBfxgQo4O6zVmbzVsaLFgRnM/LFEkwAEjenwvcEeVAD5x/AG5pxYyJ9SmVAAAAABJRU5ErkJggg=="/>
+  </svg>
+  </li>
+  <li class="p-footer__navLink u-pt_0-25"><a href="#">お知らせ</a><svg class="c-icon--arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+    <image id="arrow_icon.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAXklEQVQYlaXOoQ2EQABE0beEILDkQhN0QQG4UwiKoYNrhDaoAksCCQ67FwTBs1+OeJkQY/SyH2oMOG8iBfxgQo4O6zVmbzVsaLFgRnM/LFEkwAEjenwvcEeVAD5x/AG5pxYyJ9SmVAAAAABJRU5ErkJggg=="/>
+  </svg>
+  </li>
+  <li class="p-footer__navLink u-pt_0-25"><a href="#">お問い合わせ
+  </a><svg class="c-icon--arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="5" viewBox="0 0 20 5">
+    <image id="arrow_icon.svg" width="20" height="5" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAAXklEQVQYlaXOoQ2EQABE0beEILDkQhN0QQG4UwiKoYNrhDaoAksCCQ67FwTBs1+OeJkQY/SyH2oMOG8iBfxgQo4O6zVmbzVsaLFgRnM/LFEkwAEjenwvcEeVAD5x/AG5pxYyJ9SmVAAAAABJRU5ErkJggg=="/>
+  </svg></li>
+</div>
+</div>
+</ul>
+</div>
+
+<div class="p-footer__flexWrapper--last">
+  <p class="p-footer__textSmall u-mt_3-0"><a href="#">プライバシーポリシー</a></p>
+  <p class="p-footer__textSmall u-mt_3-0"><small>&copy;2020 KAGU inc.</small></p>
+</div>
+
+</footer>
+  
+</div> <!-- /wrap-->
+  
+  
+
+
+</body>
+</html>
